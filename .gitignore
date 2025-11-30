@@ -1,0 +1,119 @@
+# =========================
+# OS
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Sensible / environment
+# =========================
+# environment / secret files
+.env
+*.env
+*.local
+*.key
+*.pem
+*.crt
+*.pfx
+
+# database files
+*.sqlite
+*.db
+
+# swap / temp
+*~
+*.swp
+*.swo
+
+# =========================
+# C++ / native builds
+# =========================
+# common build folders
+/build/
+bin/
+obj/
+out/
+dist/
+
+# object / executable files
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# core dumps
+core
+core.*
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# Make/ninja build folders
+/.ninja_deps
+/.ninja_log
+
+# =========================
+# Java
+# =========================
+# compiled class files
+*.class
+
+# packages
+*.jar
+*.war
+*.ear
+
+# build dirs
+/target/
+/build/
+/out/
+
+# IDE module files
+*.iml
+
+# logs
+*.log
+
+# Maven / Gradle
+/.mvn/
+/target/
+/.gradle/
+/build/
+gradle-app.setting
+
+# =========================
+# IDEs & editors
+# =========================
+# VSCode
+.vscode/
+
+# JetBrains (IntelliJ, CLion, PhpStorm, etc.)
+.idea/
+*.iws
+*.iml
+/out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.bin/
+
+# Sublime Text
+*.sublime-work*
