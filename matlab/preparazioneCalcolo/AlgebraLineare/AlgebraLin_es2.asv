@@ -1,0 +1,22 @@
+clc
+clear
+close all
+
+function x = forward(A, b)
+x = zeros(length(b));
+
+x(1) = b(1)/A(1, 1);
+
+for i = 2:length(b)
+    s= 0;
+    for j = 1:i-1
+       s = s + A(i, j)*x(j);
+    end
+    x(i) = (b(i) - s)/A(i, i);
+end
+end
+
+function x = backward(A, b)
+x = zeros(length(b));
+x
+end
